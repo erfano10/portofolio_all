@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Industrial</title>
+    <title>Portfolio Industrial</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
@@ -191,6 +191,17 @@
         .nav-link:hover::after {
             width: 100%;
         }
+
+        /* Placeholder untuk gambar yang tidak ada */
+        .img-placeholder {
+            background: linear-gradient(135deg, var(--crimson), var(--teal));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--cream);
+            font-size: 48px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -255,11 +266,11 @@
                     <!-- Photo Frame -->
                     <div class="industrial-border p-4 mb-6 metal-texture">
                         <div class="bg-[#283E56] p-2">
-                            <div class="relative overflow-hidden" style="padding-bottom: 100%;">
+                             <div class="relative overflow-hidden" style="padding-bottom: 100%;">
                                 <img src="images/foto-saya.09.jpeg" alt="Profile Photo"
                                     class="absolute inset-0 w-full h-full object-cover object-top">
                                 <div
-                                    class="absolute top-2 right-2 bg-[#970747] text-[#FEF4E8] px-3 py-1 text-xs font-bold">
+                                    class="absolute top-2 right-2 bg-[#970747] text-[#FEF4E8] px-3 py-1 text-xs font-bold z-10">
                                     PROFILE
                                 </div>
                             </div>
@@ -270,19 +281,19 @@
                     <div class="industrial-border p-8 metal-texture">
                         <div class="bg-[#283E56] p-6 space-y-4">
                             <div class="flex items-center justify-between border-l-4 border-[#970747] pl-4">
-                                <span class="text-[#FEF4E8]">SYSTEM STATUS</span>
+                                <span class="text-[#FEF4E8]">System Status</span>
                                 <span class="text-[#1989AC] font-bold">ONLINE</span>
                             </div>
                             <div class="flex items-center justify-between border-l-4 border-[#1989AC] pl-4">
-                                <span class="text-[#FEF4E8]">PROJECTS COMPLETED</span>
-                                <span class="text-[#970747] font-bold">50+</span>
+                                <span class="text-[#FEF4E8]">Status</span>
+                                <span class="text-[#970747] font-bold">SISWA</span>
                             </div>
                             <div class="flex items-center justify-between border-l-4 border-[#970747] pl-4">
-                                <span class="text-[#FEF4E8]">EXPERIENCE YEARS</span>
-                                <span class="text-[#1989AC] font-bold">5+</span>
+                                <span class="text-[#FEF4E8]">TAHUN BELAJAR</span>
+                                <span class="text-[#1989AC] font-bold">1 Tahun</span>
                             </div>
                             <div class="flex items-center justify-between border-l-4 border-[#1989AC] pl-4">
-                                <span class="text-[#FEF4E8]">CLIENT SATISFACTION</span>
+                                <span class="text-[#FEF4E8]">SEMANGAT BELAJAR </span>
                                 <span class="text-[#970747] font-bold">100%</span>
                             </div>
                         </div>
@@ -302,19 +313,18 @@
                 <div class="w-24 h-1 bg-[#970747] mx-auto"></div>
             </div>
             <div class="max-w-4xl mx-auto">
-                <div class="industrial-border p-8 bg-[#283E56] bg-opacity-80">
+                <div class="industrial-border p-8 bg-[#283E56]">
                     <p class="text-xl text-[#FEF4E8] leading-relaxed mb-6">
-                        Saya adalah seorang fullstack developer yang tertarik membuat aplikasi
-                        yang kuat, fungsional, dan memiliki tampilan visual yang menarik.
-                        Saya menggabungkan ketelitian teknis dengan kreativitas dalam setiap proyek.
-
+                        Saya adalah pelajar SMK Telkom Malang jurusan RPL yang tertarik pada pengembangan web dan
+                        teknologi digital modern. Saya senang belajar, bereksperimen, dan mengubah ide menjadi solusi
+                        digital.
                     </p>
                     <p class="text-lg text-[#FEF4E8] opacity-80 leading-relaxed">
-                        Dengan kemampuan dalam teknologi web modern dan perhatian pada
-                        tampilan bergaya industrial, saya membangun solusi yang kuat
-                        dan menarik secara visual. Setiap proyek menjadi kesempatan
-                        untuk memberikan hasil terbaik.
+                        Saat ini, saya aktif belajar dan mengembangkan kemampuan melalui tugas sekolah, latihan mandiri,
+                        serta pembuatan proyek website sederhana.
 
+                        Saya memiliki semangat belajar yang tinggi, mudah beradaptasi dengan hal baru, serta bertanggung
+                        jawab dalam menyelesaikan setiap tugas yang diberikan.
                     </p>
                 </div>
             </div>
@@ -326,7 +336,7 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-5xl font-bold mb-4">
-                    <span class="gradient-text">FEATURED PROJECTS</span>
+                    <span class="gradient-text">Aktivitas dan Prestasi</span>
                 </h2>
                 <div class="w-24 h-1 bg-[#970747] mx-auto"></div>
             </div>
@@ -339,14 +349,13 @@
                             </path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">INDUSTRIAL DASHBOARD</h3>
-                    <p class="text-[#FEF4E8] opacity-80 mb-4">Sistem pemantauan real-time yang dilengkapi dengan
-                        analisis
-                        dan visualisasi data.
+                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">Aktivitas Pembelajaran</h3>
+                    <p class="text-[#FEF4E8] opacity-80 mb-4"> Saya disekolah lebih banyak belajar tentang dasar-dasar
+                        coding dan logika
                     </p>
                     <div class="flex space-x-2">
-                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">React</span>
-                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">Node.js</span>
+                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">java</span>
+                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">Python</span>
                     </div>
                 </div>
                 <div class="project-card p-6">
@@ -357,13 +366,13 @@
                             </path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">AUTOMATION PLATFORM</h3>
-                    <p class="text-[#FEF4E8] opacity-80 mb-4">Otomatisasi alur kerja yang lebih efisien untuk proses
-                        manufaktur dan pengendalian kualitas.
+                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">Extrakurikuler</h3>
+                    <p class="text-[#FEF4E8] opacity-80 mb-4">Saya di SMK Telkom Malang mengikuti 1 ekstrakurikuler
+                        yaitu IT Software Solution For Business
                     </p>
                     <div class="flex space-x-2">
-                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">Python</span>
-                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">Docker</span>
+                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">C#</span>
+                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">Java</span>
                     </div>
                 </div>
                 <div class="project-card p-6">
@@ -374,13 +383,13 @@
                             </path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">DATA INFRASTRUCTURE</h3>
-                    <p class="text-[#FEF4E8] opacity-80 mb-4">Arsitektur pengolahan data yang dapat dikembangkan
-                        untuk aplikasi skala besar.
+                    <h3 class="text-2xl font-bold text-[#FEF4E8] mb-3">Membuat Website Sederhana</h3>
+                    <p class="text-[#FEF4E8] opacity-80 mb-4">Saya Pernah membuat website sederhana di sekolah dengan
+                        judul website RosoSehat
                     </p>
                     <div class="flex space-x-2">
-                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">PostgreSQL</span>
-                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">AWS</span>
+                        <span class="text-xs bg-[#1989AC] text-[#FEF4E8] px-3 py-1">JavaL</span>
+                        <span class="text-xs bg-[#970747] text-[#FEF4E8] px-3 py-1">UI/UX</span>
                     </div>
                 </div>
             </div>
@@ -399,8 +408,8 @@
             <div class="max-w-4xl mx-auto space-y-6">
                 <div>
                     <div class="flex justify-between mb-2">
-                        <span class="text-[#FEF4E8] font-bold">FRONTEND DEVELOPMENT</span>
-                        <span class="text-[#1989AC]">90%</span>
+                        <span class="text-[#FEF4E8] font-bold">PANTANG MENYERAH</span>
+                        <span class="text-[#1989AC]">100%</span>
                     </div>
                     <div class="skill-bar h-6">
                         <div class="skill-progress" style="width: 90%"></div>
@@ -408,8 +417,8 @@
                 </div>
                 <div>
                     <div class="flex justify-between mb-2">
-                        <span class="text-[#FEF4E8] font-bold">BACKEND DEVELOPMENT</span>
-                        <span class="text-[#1989AC]">85%</span>
+                        <span class="text-[#FEF4E8] font-bold">SEMANGAT BELAJAR</span>
+                        <span class="text-[#1989AC]">100%</span>
                     </div>
                     <div class="skill-bar h-6">
                         <div class="skill-progress" style="width: 85%"></div>
@@ -417,8 +426,8 @@
                 </div>
                 <div>
                     <div class="flex justify-between mb-2">
-                        <span class="text-[#FEF4E8] font-bold">DATABASE MANAGEMENT</span>
-                        <span class="text-[#1989AC]">80%</span>
+                        <span class="text-[#FEF4E8] font-bold">CERDAS BERFIKIR</span>
+                        <span class="text-[#1989AC]">90%</span>
                     </div>
                     <div class="skill-bar h-6">
                         <div class="skill-progress" style="width: 80%"></div>
@@ -435,8 +444,8 @@
                 </div>
                 <div>
                     <div class="flex justify-between mb-2">
-                        <span class="text-[#FEF4E8] font-bold">DEVOPS & DEPLOYMENT</span>
-                        <span class="text-[#1989AC]">70%</span>
+                        <span class="text-[#FEF4E8] font-bold">DISIPLIN BELAJAR</span>
+                        <span class="text-[#1989AC]">90%</span>
                     </div>
                     <div class="skill-bar h-6">
                         <div class="skill-progress" style="width: 70%"></div>
@@ -456,7 +465,7 @@
                 <div class="w-24 h-1 bg-[#970747] mx-auto"></div>
             </div>
             <div class="max-w-2xl mx-auto">
-                <div class="industrial-border p-8 bg-[#283E56] bg-opacity-80">
+                <div class="industrial-border p-8 bg-[#1a2a3a]">
                     <div class="space-y-6">
                         <div class="flex items-center space-x-4 border-l-4 border-[#970747] pl-4">
                             <div class="w-12 h-12 bg-[#1989AC] flex items-center justify-center">
@@ -469,7 +478,7 @@
                             </div>
                             <div>
                                 <p class="text-[#FEF4E8] opacity-60 text-sm">EMAIL</p>
-                                <p class="text-[#FEF4E8] font-bold">contact@industrial.dev</p>
+                                <p class="text-[#FEF4E8] font-bold">alfarrezafano@gmail.com</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4 border-l-4 border-[#1989AC] pl-4">
@@ -499,7 +508,7 @@
                             </div>
                             <div>
                                 <p class="text-[#FEF4E8] opacity-60 text-sm">LOCATION</p>
-                                <p class="text-[#FEF4E8] font-bold">Malang, East Java, Indonesia</p>
+                                <p class="text-[#FEF4E8] font-bold">Malang, Indonesia</p>
                             </div>
                         </div>
                     </div>
@@ -518,4 +527,63 @@
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-[#970747] hover:bg-[#1989AC
+                        <a href="#"
+                            class="w-12 h-12 bg-[#970747] hover:bg-[#1989AC] flex items-center justify-center transition-all">
+                            <svg class="w-6 h-6 text-[#FEF4E8]" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t-2 border-[#1989AC] bg-[#283E56]">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-[#FEF4E8] opacity-60">&copy; 2026 INDUSTRIAL.DEV. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate skill bars on scroll
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progressBars = entry.target.querySelectorAll('.skill-progress');
+                    progressBars.forEach(bar => {
+                        bar.style.width = bar.style.width || '0%';
+                    });
+                }
+            });
+        }, observerOptions);
+
+        const skillsSection = document.querySelector('#skills');
+        if (skillsSection) {
+            observer.observe(skillsSection);
+        }
+    </script>
+</body>
+
+</html>
+        
